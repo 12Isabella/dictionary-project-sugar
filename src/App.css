@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+.AppFooter {
+  text-align: center;
+  margin: 30px 0;
+}
