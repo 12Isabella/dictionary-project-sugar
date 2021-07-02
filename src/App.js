@@ -10,7 +10,9 @@ function App() {
       <main>
         <Dictionary />
       </main>
-      <footer className="AppFooter">Open source coded by Isabella Otto</footer>
+      <footer className="AppFooter">
+        <a target="_blank" rel="noopener noreferrer"href="https://github.com/12Isabella/dictionary-project-sugar" >Open source </a>
+        coded by Isabella Otto</footer>
       </div>
     </div>
   );
