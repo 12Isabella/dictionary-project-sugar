@@ -8,6 +8,9 @@ function App() {
       
       <div className="container">
       <p>Hello</p>
+      <a href="/" className="btn btn-primary">
+        Hello
+      </a>
       </div>
     </div>
   );
