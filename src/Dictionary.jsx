@@ -24,13 +24,15 @@ export default function Dictionary() {
 
   return (
     <div className="Dictionary">
-      <form onSubmit={handleSubmit}>
-        <input
-          onChange={handleChange}
-          type="search"
-          placeholder="Enter your hopes and dreams..."
-        />
-      </form>
+      <section>
+        <form onSubmit={handleSubmit}>
+          <input
+            onChange={handleChange}
+            type="search"
+            placeholder="Enter your hopes and dreams..."
+          />
+        </form>
+      </section>
       <Results results={results} />
     </div>
   );
