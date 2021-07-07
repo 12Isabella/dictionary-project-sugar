@@ -2,11 +2,15 @@
   margin-top: 40px;
   margin-bottom: 20px;
 }
+.Dictionary h1 {
+  font-family: "Zen Tokyo Zoo", cursive;
+}
 .Dictionary section {
   padding: 30px;
   border-radius: 6px;
   box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
   margin: 20px 0;
+  background-color: #f1e9ecb6;
 }
 
 .Dictionary input {

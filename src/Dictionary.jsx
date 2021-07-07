@@ -4,7 +4,7 @@ import "./Dictionary.css";
 import Results from "./Results";
 
 export default function Dictionary() {
-  let [input, setInput] = useState("hippopotamus");
+  let [input, setInput] = useState("sunset");
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
 
