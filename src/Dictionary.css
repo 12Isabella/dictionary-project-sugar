@@ -16,3 +16,6 @@
   border-radius: 6px;
   color: #333;
 }
+.Dictionary .hint {
+  font-size: 12px;
+}
