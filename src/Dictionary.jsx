@@ -5,7 +5,7 @@ import Results from "./Results";
 import Photos from "./Photos";
 
 export default function Dictionary() {
-  let [input, setInput] = useState("ocean");
+  let [input, setInput] = useState("pink");
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
