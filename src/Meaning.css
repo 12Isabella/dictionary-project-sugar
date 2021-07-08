@@ -1,5 +1,11 @@
-.Meaning .DefExSyn {
+.Meaning .Definition {
   font-size: 12px;
+  padding: 5px;
+}
+
+.Meaning .Example {
+  font-size: 12px;
+  padding: 5px;
 }
 .Meaning h3 {
   font-size: 20px;

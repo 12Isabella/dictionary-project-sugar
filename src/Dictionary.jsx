@@ -5,7 +5,7 @@ import Results from "./Results";
 import Photos from "./Photos";
 
 export default function Dictionary() {
-  let [input, setInput] = useState("pink");
+  let [input, setInput] = useState("ocean");
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
   let [photos, setPhotos] = useState(null);
@@ -15,7 +15,6 @@ export default function Dictionary() {
   }
 
   function handlePexelsResponse(response) {
-    console.log(response.data.photos);
     setPhotos(response.data.photos);
   }
 
@@ -26,7 +25,7 @@ export default function Dictionary() {
     let pexelsApiKey =
       "563492ad6f9170000100000148d9e75f8ffb41cf814a2ea1e883bc36";
     let pexelsApiUrl = `https://api.pexels.com/v1/search?query=${input}&per_page=9`;
-    const headers = { Authorization: `Bearer ${pexelsApiKey}` };
+    let headers = { Authorization: `Bearer ${pexelsApiKey}` };
     axios.get(pexelsApiUrl, { headers }).then(handlePexelsResponse);
   }
 
